@@ -14,25 +14,25 @@ body {
 
 ul {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  padding: 0px;
+  margin: 0px;
 }
 .container {
+  margin-right: auto;
+  margin-left: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
-.container-header-index {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.container-header-portfolio {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  background-color: yellow;
 }
 
 /* навигация */
 .page-header {
+  margin: 0 auto;
   background-color: #ffffff;
 }
 .site-nav {
@@ -103,6 +103,9 @@ ul {
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  background-color: violet;
 }
 
 .feature-text {
@@ -121,6 +124,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 /* команда */
 .section-team {
@@ -134,6 +139,8 @@ ul {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .section-title-names {
   color: var(--primary-text-color);
@@ -189,11 +196,16 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
   border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-portfolio:focus,
 .button-portfolio:hover {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+.section {
+  background-color: violet;
 }
 .button-portfolio {
   font-family: Roboto;

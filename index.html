@@ -13,31 +13,39 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
     <header class="page-header">
-        <div class="container">
-        <nav>
+        <div class="container item">
+        <nav class="item">
         <a class="logo" href=""><span class="textcolor-web">Web</span><span class="textcolor-studio">Studio</span></a>
-
-        <ul>
-            <li><a class="site-nav current" href="./index.html">Студия</a></li>
-            <li><a class="site-nav" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="site-nav" href="">Контакты</a></li>
+        <ul class="item">
+            <li class="item-li"><a class="site-nav current" href="./index.html">Студия</a></li>
+            <li class="item-li"><a class="site-nav" href="./portfolio.html">Портфолио</a></li>
+            <li class="item-li"><a class="site-nav" href="">Контакты</a></li>
         </ul>
         </nav>
-        <a class="site-nav contacts-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
-         <a class="site-nav contacts-header" href="tel:380961111111">+38 096 111 11 11</a>
+        <div class="item-contacts">
+        <ul class="item">
+            <li class="item-li">
+            <a class="site-nav contacts-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item-li">
+            <a class="site-nav contacts-header" href="tel:380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
+        </div>
         </div>  
         </header>
     <main>
-        <section class="section1">
+        <section class="section">
             <h1 class="hero">
                 ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br>ДЛЯ ВАШЕГО БИЗНЕСА
             </h1>
+            <div class="button-primary-container">
             <button class="button-primary" type="button">Заказать услугу</button>
+            </div>
         </section>
-        <div class="container">
-        <section class="section">
+        <section class="section1">
+            <div class="container">
             <ul class="feature">
                 <li>
                     <h3 class="title">
@@ -72,12 +80,12 @@
                     </p>
                 </li>
             </ul>
-        </section>
-        <section class="section">
+            </div>
+            <div class="container">
             <h2 class="section-hero">
                 Чем мы занимаемся
             </h2>
-            <ul>
+            <ul class="item-business">
                 <li>
                     <img src="./images/img-pc.jpg" alt="pc" width="370">
                 </li>
@@ -88,42 +96,55 @@
                     <img src="./images/img-tablet.jpg" alt="tablet" width="370">
                 </li> 
             </ul>
+            </div>
         </section>
         <section class="section-team">
+            <div class="container">
             <h2 class="section-hero">
                 Наша команда
             </h2>
-            <ul>
-                <li>
+            <ul class="item">
+                <li class="img-decor">
                     <img src="./images/img1section2.jpg" alt="Product Designer" width="270">
                     <h3 class="section-title-names">Игорь Демьяненко</h3>
                     <p class="section-title-profession">Product Designer</p>
                 </li>
-                <li>
+                <li class="img-decor">
                     <img src="./images/img2section2.jpg" alt="Frontend Developer" width="270">
                     <h3 class="section-title-names">Ольга Репина</h3>
                     <p class="section-title-profession">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="img-decor">
                     <img src="./images/img3section2.jpg" alt="Marketing" width="270">
                     <h3 class="section-title-names">Николай Тарасов</h3>
                     <p class="section-title-profession">Marketing</p>
                 </li>
-                <li>
+                <li class="img-decor">
                     <img src="./images/img4section2.jpg" alt="UI Designer" width="270">
                     <h3 class="section-title-names">Михаил Ермаков</h3>
                     <p class="section-title-profession">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
-        </div>
+       
     </main>
     <footer class="page-footer">
         <div class="container">
-        <a class="logo" href=""><span class="textcolor-web">Web</span><span class="textcolor-studio-footer">Studio</span></a>
-        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-        <a class="site-nav contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="site-nav contacts-footer" href="tel:380961111111">+38 096 111 11 11</a>
+         <ul class="item-li-footer">
+             <li class="logo-footer-position">
+                <a class="logo-footer" href=""><span class="textcolor-web">Web</span><span class="textcolor-studio-footer">Studio</span></a>
+            </li>
+            <li class="adress-footer-position">
+             <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+                </li>
+            <li class="mail-footer-position">
+                 <a class="site-nav contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a class="site-nav contacts-footer" href="tel:380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
     </div>
     </footer>
 </body>
